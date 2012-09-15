@@ -20,7 +20,7 @@ body {	font-family:Verdana, Geneva, sans-serif; margin:0; background:url(../imag
 
 
 
-#menu {
+#menu-r {
 	font-size:12px;
 	display:inline-block; 
 	vertical-align:top;
@@ -29,7 +29,7 @@ body {	font-family:Verdana, Geneva, sans-serif; margin:0; background:url(../imag
 
 }
 	
-#menu li{
+#menu-r li{
 	list-style:none;
 	display:inline-block;
 	background:#CCC;
@@ -38,16 +38,16 @@ body {	font-family:Verdana, Geneva, sans-serif; margin:0; background:url(../imag
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	}
-#menu a{
+#menu-r a{
 	text-decoration:none;
 	font-weight:bold;
 	color:#FFF;
 	}
 
-#menu a:active{
+#menu-r a:active{
 	color:#000;
 	}
-#menu .seleccionado{
+#menu-r .seleccionado{
 	text-decoration:underline;
 	color:#FFF;
 }	
@@ -135,3 +135,140 @@ body {	font-family:Verdana, Geneva, sans-serif; margin:0; background:url(../imag
 	}
 #anterior {}
 #siguiente {float:right;}
+
+/*Tipo Vistas */
+#menu-l {
+	font-size:12px;
+	display:inline-block; 
+	vertical-align:top;
+	margin:24px 0 0 0;
+	float:left;
+
+}
+	
+#menu-l li{
+	list-style:none;
+	display:inline-block;
+	background:#CCC;
+	padding:7px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	}
+#menu-l a{
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+	}
+
+#menu-l a:active{
+	color:#000;
+	}
+#menu-l .seleccionado{
+	text-decoration:underline;
+	color:#FFF;
+}	
+
+#letras {
+	font-size:12px; color:#fff;
+	display:inline-block; 
+	margin:24px 0 0 110px;
+	float:right;
+}
+#letras li{
+	list-style:none;
+	display:inline-block;
+	padding:3px;
+}
+
+#topic{
+font-weight: bold;	
+}
+
+header{
+margin-bottom: 10px;	
+}
+
+#enviarEntrada{
+display:inline-block;
+background:#CCC; 
+padding:10px; 
+text-decoration:none;
+border: 5px inset black;
+}	
+
+a#enviarEntrada:hover{
+	background:green;
+}
+a#enviarEntrada:visited:hover{ 
+background:yellowgreen;
+}	
+
+.datos-articulo{
+width:70%;
+font-size: 10px;
+margin-top: 30px;
+float:right;	
+}
+
+#TituloConcurso{
+font-size: 30px;
+font-weight: bold; 	
+}
+#hashtagTwitter{
+float:right;
+font-size: 30px;
+font-weight: bold; 
+}
+.articulo {
+	float:right;
+	
+}
+
+#enviarEntrada{
+display:inline-block;
+background:#CCC; 
+padding:10px; 
+text-decoration:none;
+border: 5px inset black;
+}
+
+.seccion-g{
+	height: 120px;
+	border: 1px solid #333;
+	padding-top: 0;
+	margin-top:0;
+	margin-bottom:20px;
+	padding: 10px;	
+	}
+	
+.comentarioEntrada{
+	width: 80%;
+	margin: 0px;
+	text-align: justify;
+	padding:10px;
+	text-align: left;
+	float:left;
+	}	
+
+.imageDeAroba{
+width:80px;
+height:80px;
+float:left;	
+margin: 10px;
+}
+
+.aroba{
+display: inline;
+font-weight: bold;
+padding-left: 10px;	
+}
+.tituloEnvio{
+display: inline;
+font-weight: bold;
+}
+.fechaEnvio {float:right;display:inline}
+
+#titleGanador{font-weight: bold;display: inline;}
+
+#titleEntrada{font-weight: bold;display: inline;}

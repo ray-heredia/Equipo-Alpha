@@ -22,18 +22,10 @@ body{font-family:Verdana, Geneva, sans-serif; margin:0;}
 	padding:3px;
 }
 
-#topicCategoria{
+#topic{
 font-weight: bold;	
 }
-#topicDificultad{
-font-weight: bold;
-}
-#topicInicio{
-font-weight: bold;
-}
-#topicFin{
-font-weight: bold;
-}
+
 
 header{
 margin-bottom: 10px;	
@@ -122,7 +114,7 @@ padding-left: 10px;
 display: inline;
 font-weight: bold;
 }
-#fechaEnvio,#fechaEnvio1,#fechaEnvio2,#fechaEnvio3{float:right;display:inline}
+#fechaEnvio {float:right;display:inline}
 
 #titleGanador{font-weight: bold;display: inline;}
 
